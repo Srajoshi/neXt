@@ -1,0 +1,56 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  /* //background-image: url(../images/stardust.png) */
+  background-image: url(../images/free-background-pattern2.jpg)
+}
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+#log-out-btn {
+  display: none
+}
+
+.jumbotron {
+  /* background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #444349 75%); */
+
+   /* height: 10px; */
+  /* width: 100%; */
+  /* padding-bottom: 10px; */
+  position: relative;
+  height: 37vh;
+
+  /* padding: 40% 0 0; */
+  /* margin-bottom: 10px; */
+  color: inherit;
+  background-color: rgb(232,232,232);
+  text-align: center;
+  /* background-size: cover; */
+  /* background: contain; */
+  background-image: url(../images/adventure-travel.jpg);
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  background-position-x: center;
+
+  /* background-position: center; */
+
+}
+
+.jumbotron-text {
+  color: green;
+
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 3px 3px 7px white;
+
+}
+
+
+
+label {
+  width: 140px;
+}
